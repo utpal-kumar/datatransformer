@@ -1,0 +1,13 @@
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\bin\Debug\DataTransformer.exe.config
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\bin\Debug\DataTransformer.exe
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\bin\Debug\DataTransformer.pdb
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\MainWindow.g.cs
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\App.g.cs
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer_MarkupCompile.cache
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer_MarkupCompile.lref
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\MainWindow.baml
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer.g.resources
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer.Properties.Resources.resources
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer.csproj.GenerateResource.Cache
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer.exe
+F:\Software\Projects\Projects\DataTransformer\DataTransformer\obj\Debug\DataTransformer.pdb

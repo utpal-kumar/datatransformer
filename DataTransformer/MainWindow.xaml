@@ -1,0 +1,24 @@
+﻿<Window x:Class="DataTransformer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataTransformer"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Data Transformer" Height="322.695" Width="525">
+    <Grid Margin="0,0,0,12">
+        <Button x:Name="button" Content="Browse.." HorizontalAlignment="Left" Margin="407,126,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBox x:Name="txtDataFilePath" HorizontalAlignment="Left" Height="20" Margin="160,126,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="248"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="39,126,0,0" TextWrapping="Wrap" Text="Data File Path : " VerticalAlignment="Top" Width="87"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="39,65,0,0" TextWrapping="Wrap" Text="Column Seperator : " VerticalAlignment="Top"/>
+        <TextBox x:Name="txtColumnSeperator" HorizontalAlignment="Left" Height="20" Margin="160,65,0,0" TextWrapping="Wrap" Text="~" VerticalAlignment="Top" Width="52"/>
+        <TextBox x:Name="txtRowSeperator" HorizontalAlignment="Left" Height="20" Text="ý" Margin="160,94,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="52"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="39,94,0,0" TextWrapping="Wrap" Text="Row Seperator : " VerticalAlignment="Top"/>
+        <Button x:Name="btnTransfer" Content="Transform" HorizontalAlignment="Left" Margin="219,210,0,0" VerticalAlignment="Top" Width="75" Click="btnTransfer_Click" Height="26" />
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="39,160,0,0" TextWrapping="Wrap" Text="Column File Path : " VerticalAlignment="Top" Width="105" RenderTransformOrigin="0.426,3.03"/>
+        <Button x:Name="button_Copy" Content="Browse.." HorizontalAlignment="Left" Margin="407,161,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <TextBox x:Name="txtColumnFilePath" HorizontalAlignment="Left" Height="20" Margin="160,161,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="247"/>
+
+    </Grid>
+</Window>
