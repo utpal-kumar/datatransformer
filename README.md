@@ -30,7 +30,9 @@ If the data is like,
 Mr. X~BDTýUSDýGBPýEUR~1000ý150ý25ý~20150101ý20150215ý20160310ý20160415~10
 
 Then need to transform the data file to following CSV:
+
 Name,CurrencyCode,CurrentBalance,DateValue,TaxAmount
+
 Mr. X;BDT;10500;20150101;10
 Mr. X;USD;2500;20150201;NULL	
 Mr. X;GBP;1050;20150301;NULL
