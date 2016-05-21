@@ -1,12 +1,13 @@
 # Requirements As below
 
-I have data in a text format. The data I was provided doesn’t contain any column name.
+I have data in a text format. The data I was provided doesnâ€™t contain any column name.
 Data:
-Mr. X~BDTıUSDıGBPıEUR~1000ı150ı25ı~20150101ı20150215ı20160310ı20160415~10
+
+Mr. X~BDTÃ½USDÃ½GBPÃ½EUR~1000Ã½150Ã½25Ã½~20150101Ã½20150215Ã½20160310Ã½20160415~10
 
 Here:
-1.	Column Delimiter is “~”
-2.	Row Delimiter is the symbol “ı”
+1.	Column Delimiter is â€œ~â€
+2.	Row Delimiter is the symbol â€œÃ½â€
 3.	Column names given in separate text file
 
 Column Names:
@@ -14,7 +15,7 @@ Name, CurrencyCode, CurrentBalance, DateValue, TaxAmount
 
 Current Scenario:	
 
-We can import this data using SQL Server Integration Service and also we can use a SQL Server’s table valued function to split multi delimited values into rows. After all these the scenario does look like as following:
+We can import this data using SQL Server Integration Service and also we can use a SQL Serverâ€™s table valued function to split multi delimited values into rows. After all these the scenario does look like as following:
 
  
 I am provided with 200K records and after splitting the data will be more then 10MIL! In SQL Server using table values function it is taking more than 9 hours!
@@ -23,8 +24,10 @@ Required:
 Transform the data file into CSV or SQL Server insert into script having the multi delimited values into rows.
 
 For an example:
+
 If the data is like,
-Mr. X~BDTıUSDıGBPıEUR~1000ı150ı25ı~20150101ı20150215ı20160310ı20160415~10
+
+Mr. X~BDTÃ½USDÃ½GBPÃ½EUR~1000Ã½150Ã½25Ã½~20150101Ã½20150215Ã½20160310Ã½20160415~10
 
 Then need to transform the data file to following CSV:
 Name,CurrencyCode,CurrentBalance,DateValue,TaxAmount
@@ -32,6 +35,7 @@ Mr. X;BDT;10500;20150101;10
 Mr. X;USD;2500;20150201;NULL	
 Mr. X;GBP;1050;20150301;NULL
 Mr. X;EUR;NULL;20160415;NULL
+
 Suggestion:
 
 Since there are no column name provided with the data we can create another text file having those column names. While transforming the data into csv we can fetch the column names from the text file.
