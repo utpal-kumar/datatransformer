@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomMultiThreadingDataTransformer.cs" />
+    <Compile Include="CustomParallelFileTransformer.cs" />
+    <Compile Include="FileTransformer.cs" />
     <Compile Include="LogWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
